@@ -34,7 +34,15 @@ function App() {
           position: "sticky",
         }}
       >
-        <div style={{ backgroundColor: "lightgray",padding:"50px" }}>Im footer</div>
+        <div
+          style={{
+            backgroundColor: "lightgray",
+            padding: "50px",
+            margin: "10px",
+          }}
+        >
+          Im footer
+        </div>
       </Footer>
     </Layout>
   );
